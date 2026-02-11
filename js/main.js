@@ -20,9 +20,20 @@ themeToggle.addEventListener('click', () => {
     const themeIcon = themeToggle.querySelector('.theme-icon');
     themeIcon.textContent = newTheme === 'dark' ? '☀️' : '🌙';
     
+    // Update profile photo
+    updateProfilePhoto(newTheme);
+    
     // Update header background immediately
     updateHeaderBackground();
 });
+
+// Update profile photo based on theme
+function updateProfilePhoto(theme) {
+    const profilePhoto = document.getElementById('profilePhoto');
+    if (profilePhoto) {
+        profilePhoto.src = theme === 'dark' ? 'assets/profile_dark.jpg' : 'assets/profile.jpg';
+    }
+}
 
 // Language Toggle
 langToggle.addEventListener('click', () => {
@@ -78,6 +89,9 @@ function initializeThemeAndLanguage() {
     themeIcon.textContent = savedTheme === 'dark' ? '☀️' : '🌙';
     
     langToggle.querySelector('.lang-text').textContent = savedLang.toUpperCase();
+    
+    // Update profile photo
+    updateProfilePhoto(savedTheme);
     
     updateLanguage(savedLang);
 }
