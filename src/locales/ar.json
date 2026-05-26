@@ -10,10 +10,10 @@
   "hero": {
     "name": "عزام عدنان عبدالغني",
     "title": "مهندس تقنية معلومات | مطور فلاتر وتطبيقات الجوال | مطور Full-Stack | أخصائي أنظمة ERP",
-    "intro": "مهندس تقنية معلومات ذو خبرة عملية في تطوير تطبيقات الجوال الجاهزة للإنتاج باستخدام Flutter، وأنظمة الخلفية المعمارية، والواجهات الأمامية الحديثة، والبنية التحتية الآلية لـ DevOps. سجل حافل في إدارة حلول ERP المؤسسية وإدارة أنظمة تقنية المعلومات عالية التوفر.",
+    "intro": "مهندس تقنية معلومات متخصص في تطوير الحلول البرمجية المتكاملة، أمتلك خبرة عملية في تطوير تطبيقات Flutter الجاهزة للإنتاج، وبناء أنظمة الويب الحديثة، وإدارة البنية التحتية التقنية وحلول DevOps. أمتلك معرفة قوية في إدارة أنظمة ERP المؤسسية، وتحسين أداء الأنظمة وقواعد البيانات، وتصميم بيئات تقنية عالية التوافر تدعم استمرارية الأعمال وكفاءة التشغيل.",
     "cta1": "عرض أعمالي",
     "cta2": "تحميل السيرة الذاتية",
-    "badge1": "إقامة سارية (السعودية)",
+    "badge1": "إقامة في (السعودية)",
     "badge2": "جاهز للعمل فوراً"
   },
   "about": {
@@ -35,43 +35,102 @@
     ]
   },
   "skills": {
-    "title": "مصفوفة المهارات التقنية",
+    "title": "المهارات التقنية",
     "subtitle": "خبرة شاملة عبر مجموعة التقنيات الحديثة",
     "categories": {
       "mobile": {
         "title": "تطوير تطبيقات الجوال",
-        "skills": ["Flutter (Dart)", "البرمجة النظيفة", "إدارة الحالة", "واجهات مستخدم متجاوبة", "تكامل REST API"]
+        "skills": [
+          "Flutter (Dart)",
+          "البرمجة النظيفة",
+          "إدارة الحالة",
+          "واجهات مستخدم متجاوبة",
+          "تكامل REST API"
+        ]
       },
       "backend": {
         "title": "تطوير الخلفية",
-        "skills": ["PHP", "Django", "Laravel", "Pocketbase", "Odoo ERP", "RESTful APIs", "JWT/OAuth 2.0"]
+        "skills": [
+          "PHP",
+          "Django",
+          "Laravel",
+          "Pocketbase",
+          "Odoo ERP",
+          "RESTful APIs",
+          "JWT/OAuth 2.0"
+        ]
       },
       "frontend": {
         "title": "تطوير الواجهات الأمامية",
-        "skills": ["HTML5", "CSS3", "JavaScript", "التصميم المتجاوب", "تنفيذ UI/UX"]
+        "skills": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "التصميم المتجاوب",
+          "تنفيذ UI/UX"
+        ]
       },
       "database": {
         "title": "قواعد البيانات والتوفر العالي",
-        "skills": ["PostgreSQL", "MongoDB", "SQL Server", "Redis", "Supabase", "MySQL", "MinIO", "ElasticSearch", "Patroni Clustering", "etcd", "HAProxy"]
+        "skills": [
+          "PostgreSQL",
+          "MongoDB",
+          "SQL Server",
+          "Redis",
+          "Supabase",
+          "MySQL",
+          "MinIO",
+          "ElasticSearch",
+          "Patroni Clustering",
+          "etcd",
+          "HAProxy"
+        ]
       },
       "devops": {
         "title": "DevOps والبنية التحتية",
-        "skills": ["Docker", "Kubernetes", "Shell Scripting", "أتمتة النسخ الاحتياطي", "Cron Jobs", "AWS", "MongoDB Atlas", "VMware", "تكوين الشبكات"]
+        "skills": [
+          "Docker",
+          "Kubernetes",
+          "Shell Scripting",
+          "أتمتة النسخ الاحتياطي",
+          "Cron Jobs",
+          "AWS",
+          "MongoDB Atlas",
+          "VMware",
+          "تكوين الشبكات"
+        ]
       },
       "erp": {
         "title": "أنظمة ERP المؤسسية",
-        "skills": ["نظام الأمين المحاسبي", "الفوترة", "التقارير المالية", "مطابقة الحسابات", "التحكم في المخزون"]
+        "skills": [
+          "نظام الأمين المحاسبي",
+          "الفوترة",
+          "التقارير المالية",
+          "مطابقة الحسابات",
+          "التحكم في المخزون"
+        ]
       },
       "desktop": {
         "title": "سطح المكتب والتقارير",
-        "skills": ["C#", "C++", "Telerik Reporting Designer", "Telerik Server"]
+        "skills": [
+          "C#",
+          "C++",
+          "Telerik Reporting Designer",
+          "Telerik Server"
+        ]
       },
       "design": {
         "title": "التصميم وتجربة المستخدم",
-        "skills": ["Adobe Photoshop", "Adobe XD", "Adobe Illustrator", "الإطارات السلكية", "النماذج الأولية"]
+        "skills": [
+          "Adobe Photoshop",
+          "Adobe XD",
+          "Adobe Illustrator",
+          "الإطارات السلكية",
+          "النماذج الأولية"
+        ]
       }
     }
-  }, 
+  },
   "experience": {
     "title": "الخبرة المهنية",
     "subtitle": "الجدول الزمني للإنجازات المهنية",
@@ -110,19 +169,40 @@
       {
         "name": "عين الأمن (Security Eye)",
         "description": "تطبيق جوال جاهز للإنتاج مبني بـ Flutter مع بنية معمارية نظيفة، تصميم واجهة مستخدم متجاوب، وتكامل آمن لـ RESTful API مع مصادقة JWT/OAuth 2.0.",
-        "tech": ["Flutter", "Dart", "Clean Architecture", "REST API", "JWT", "OAuth 2.0"],
+        "tech": [
+          "Flutter",
+          "Dart",
+          "Clean Architecture",
+          "REST API",
+          "JWT",
+          "OAuth 2.0"
+        ],
         "type": "تطبيق جوال"
       },
       {
         "name": "مجموعة قواعد البيانات عالية التوفر",
         "description": "تنفيذ تجميع قواعد البيانات على مستوى المؤسسة باستخدام Patroni + etcd + HAProxy مع Kubernetes و Docker للحصول على نسبة توفر 99.99٪.",
-        "tech": ["Patroni", "PostgreSQL", "etcd", "HAProxy", "Kubernetes", "Docker"],
+        "tech": [
+          "Patroni",
+          "PostgreSQL",
+          "etcd",
+          "HAProxy",
+          "Kubernetes",
+          "Docker"
+        ],
         "type": "البنية التحتية"
       },
       {
         "name": "تطبيقات مؤسسية Full-Stack",
         "description": "خدمات خلفية قوية باستخدام Django و Laravel و PHP، متكاملة بسلاسة مع الواجهات الأمامية الحديثة وقواعد البيانات السحابية (PostgreSQL، Supabase، MongoDB).",
-        "tech": ["Django", "Laravel", "PHP", "PostgreSQL", "MongoDB", "Supabase"],
+        "tech": [
+          "Django",
+          "Laravel",
+          "PHP",
+          "PostgreSQL",
+          "MongoDB",
+          "Supabase"
+        ],
         "type": "تطبيق ويب"
       }
     ]

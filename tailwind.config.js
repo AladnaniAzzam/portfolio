@@ -16,8 +16,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Inter', 'Poppins', 'system-ui', 'sans-serif'],
-        arabic: ['Tajawal', 'Cairo', 'system-ui', 'sans-serif'],
+        sans: ['Almarai', 'Inter', 'Poppins', 'system-ui', 'sans-serif'],
+        arabic: ['Almarai', 'Tajawal', 'Cairo', 'system-ui', 'sans-serif'],
       },
       spacing: {
         'safe': 'env(safe-area-inset-bottom)',

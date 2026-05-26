@@ -214,16 +214,16 @@ export const Contact: React.FC = () => {
                 </h4>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://www.linkedin.com/in/azzam-adnan"
+                    href="https://www.linkedin.com/in/azzam-adnan-9899563a2/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group flex items-center gap-2 px-4 py-2.5 bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 text-white rounded-lg transition-all duration-300 shadow-md hover:shadow-xl transform hover:-translate-y-0.5"
                   >
-                    <span className="text-base font-bold">in</span>
+
                     <span className="text-sm font-medium">LinkedIn</span>
                   </a>
                   <a
-                    href="https://github.com/azzam-adnan"
+                    href="https://github.com/AladnaniAzzam"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group flex items-center gap-2 px-4 py-2.5 bg-gray-800 hover:bg-gray-900 dark:bg-gray-700 dark:hover:bg-gray-600 text-white rounded-lg transition-all duration-300 shadow-md hover:shadow-xl transform hover:-translate-y-0.5"
@@ -233,6 +233,8 @@ export const Contact: React.FC = () => {
                   </a>
                   <a
                     href={`mailto:${t.contact.info.email}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="group flex items-center gap-2 px-4 py-2.5 bg-emerald-600 hover:bg-emerald-700 dark:bg-emerald-500 dark:hover:bg-emerald-600 text-white rounded-lg transition-all duration-300 shadow-md hover:shadow-xl transform hover:-translate-y-0.5"
                   >
                     <MessageSquare className="w-4 h-4" />

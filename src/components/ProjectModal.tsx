@@ -22,6 +22,7 @@ interface ProjectModalProps {
 export const ProjectModal: React.FC<ProjectModalProps> = ({ isOpen, onClose, project }) => {
   const { isRTL } = useLanguage();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [isFullscreen, setIsFullscreen] = useState(false);
 
   // Prevent background scrolling when modal is open and reset carousel
   useEffect(() => {
@@ -37,17 +38,21 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ isOpen, onClose, pro
     };
   }, [isOpen, project]);
 
-  // Handle ESC key to close modal
+  // Handle ESC key to close modal or fullscreen
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
-      if (e.key === 'Escape' && isOpen) {
-        onClose();
+      if (e.key === 'Escape') {
+        if (isFullscreen) {
+          setIsFullscreen(false);
+        } else if (isOpen) {
+          onClose();
+        }
       }
     };
 
     document.addEventListener('keydown', handleEscape);
     return () => document.removeEventListener('keydown', handleEscape);
-  }, [isOpen, onClose]);
+  }, [isOpen, isFullscreen, onClose]);
 
   // Handle backdrop click
   const handleBackdropClick = (e: React.MouseEvent<HTMLDivElement>) => {
@@ -137,7 +142,8 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ isOpen, onClose, pro
                         key={currentImageIndex} // force re-render for basic CSS opacity effect if desired, or let React handle it smoothly
                         src={project.images[currentImageIndex]}
                         alt={`${project.name} - slide ${currentImageIndex + 1}`}
-                        className="w-full h-full object-contain object-center transition-opacity duration-500 p-2 sm:p-4"
+                        onClick={() => setIsFullscreen(true)}
+                        className="w-full h-full object-contain object-center transition-opacity duration-500 p-2 sm:p-4 cursor-pointer hover:scale-[1.02] transition-transform"
                       />
                       
                       {/* Carousel Controls */}
@@ -191,8 +197,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ isOpen, onClose, pro
                     </div>
                   )}
                 </div>
-                {/* Glow effect on hover */}
-                <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-blue-500/20 via-cyan-500/20 to-emerald-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none blur-xl" />
+
               </div>
 
               {/* Tech Stack */}
@@ -266,6 +271,70 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ isOpen, onClose, pro
           </div>
         </div>
       </div>
+      {/* Fullscreen Image Viewer */}
+      {isFullscreen && project.images && project.images.length > 0 && (
+        <div 
+          className="fixed inset-0 z-[200] flex items-center justify-center bg-black/95 backdrop-blur-xl animate-fadeIn"
+          onClick={() => setIsFullscreen(false)}
+        >
+          {/* Close button */}
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              setIsFullscreen(false);
+            }}
+            className="absolute top-4 right-4 z-[210] p-3 rounded-full bg-black/50 hover:bg-white/20 text-white transition-all"
+            aria-label="Close fullscreen"
+          >
+            <X className="w-6 h-6 sm:w-8 sm:h-8" />
+          </button>
+
+          {/* Main Image */}
+          <img
+            src={project.images[currentImageIndex]}
+            alt={`${project.name} - fullscreen`}
+            className="w-full h-full max-w-[95vw] max-h-[95vh] object-contain select-none"
+            onClick={(e) => e.stopPropagation()}
+          />
+
+          {/* Fullscreen Controls */}
+          {hasMultipleImages && (
+            <>
+              <button
+                onClick={(e) => { e.stopPropagation(); onClickLeft(e); }}
+                className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-white/20 text-white p-3 rounded-full backdrop-blur-sm transition-all z-[210]"
+              >
+                <ChevronLeft className="w-6 h-6 sm:w-8 sm:h-8" />
+              </button>
+              
+              <button
+                onClick={(e) => { e.stopPropagation(); onClickRight(e); }}
+                className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-white/20 text-white p-3 rounded-full backdrop-blur-sm transition-all z-[210]"
+              >
+                <ChevronRight className="w-6 h-6 sm:w-8 sm:h-8" />
+              </button>
+
+              {/* Dots for Fullscreen */}
+              <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2 z-[210] bg-black/50 px-4 py-2 rounded-full backdrop-blur-sm">
+                {project.images.map((_, idx) => (
+                  <button
+                    key={idx}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setCurrentImageIndex(idx);
+                    }}
+                    className={`w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full transition-all ${
+                      currentImageIndex === idx
+                        ? 'bg-white scale-125'
+                        : 'bg-white/50 hover:bg-white/80'
+                    }`}
+                  />
+                ))}
+              </div>
+            </>
+          )}
+        </div>
+      )}
     </div>
   );
 };

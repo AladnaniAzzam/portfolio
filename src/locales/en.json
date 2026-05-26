@@ -10,7 +10,7 @@
   "hero": {
     "name": "Azzam Adnan Abdalghani",
     "title": "IT Engineer | Flutter & Mobile Developer | Full-Stack Developer | ERP Systems Specialist",
-    "intro": "A results-driven IT Engineer with hands-on expertise in delivering production-ready mobile applications using Flutter, architecture-driven backend systems, modern frontend interfaces, and automated DevOps infrastructure. Proven track record in administering enterprise ERP solutions and managing high-availability IT systems.",
+    "intro": "Results-driven IT Engineer with hands-on experience in developing production-ready Flutter applications, scalable backend systems, modern web interfaces, and automated DevOps infrastructure. Skilled in enterprise ERP administration, high-availability system management, and building reliable technical solutions that enhance operational efficiency and business continuity.",
     "cta1": "View My Work",
     "cta2": "Download CV",
     "badge1": "Valid Residence (KSA)",
@@ -40,35 +40,94 @@
     "categories": {
       "mobile": {
         "title": "Mobile Development",
-        "skills": ["Flutter (Dart)", "Clean Architecture", "State Management", "Responsive UI", "REST API Integration"]
+        "skills": [
+          "Flutter (Dart)",
+          "Clean Architecture",
+          "State Management",
+          "Responsive UI",
+          "REST API Integration"
+        ]
       },
       "backend": {
         "title": "Backend Development",
-        "skills": ["PHP", "Django", "Laravel", "Pocketbase", "Odoo ERP", "RESTful APIs", "JWT/OAuth 2.0"]
+        "skills": [
+          "PHP",
+          "Django",
+          "Laravel",
+          "Pocketbase",
+          "Odoo ERP",
+          "RESTful APIs",
+          "JWT/OAuth 2.0"
+        ]
       },
       "frontend": {
         "title": "Frontend Development",
-        "skills": ["HTML5", "CSS3", "JavaScript", "Responsive Design", "UI/UX Implementation"]
+        "skills": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Responsive Design",
+          "UI/UX Implementation"
+        ]
       },
       "database": {
         "title": "Databases & High Availability",
-        "skills": ["PostgreSQL", "MongoDB", "SQL Server", "Redis", "Supabase", "MySQL", "MinIO", "ElasticSearch", "Patroni Clustering", "etcd", "HAProxy"]
+        "skills": [
+          "PostgreSQL",
+          "MongoDB",
+          "SQL Server",
+          "Redis",
+          "Supabase",
+          "MySQL",
+          "MinIO",
+          "ElasticSearch",
+          "Patroni Clustering",
+          "etcd",
+          "HAProxy"
+        ]
       },
       "devops": {
         "title": "DevOps & Infrastructure",
-        "skills": ["Docker", "Kubernetes", "Shell Scripting", "Backup Automation", "Cron Jobs", "AWS", "MongoDB Atlas", "VMware", "Network Configuration"]
+        "skills": [
+          "Docker",
+          "Kubernetes",
+          "Shell Scripting",
+          "Backup Automation",
+          "Cron Jobs",
+          "AWS",
+          "MongoDB Atlas",
+          "VMware",
+          "Network Configuration"
+        ]
       },
       "erp": {
         "title": "Enterprise ERP Systems",
-        "skills": ["Al-Ameen Accounting ERP", "Invoicing", "Financial Reports", "Account Reconciliation", "Stock Control"]
+        "skills": [
+          "Al-Ameen Accounting ERP",
+          "Invoicing",
+          "Financial Reports",
+          "Account Reconciliation",
+          "Stock Control"
+        ]
       },
       "desktop": {
         "title": "Desktop & Reporting",
-        "skills": ["C#", "C++", "Telerik Reporting Designer", "Telerik Server"]
+        "skills": [
+          "C#",
+          "C++",
+          "Telerik Reporting Designer",
+          "Telerik Server"
+        ]
       },
       "design": {
         "title": "Design & UI/UX",
-        "skills": ["Adobe Photoshop", "Adobe XD", "Adobe Illustrator", "Wireframing", "Prototyping"]
+        "skills": [
+          "Adobe Photoshop",
+          "Adobe XD",
+          "Adobe Illustrator",
+          "Wireframing",
+          "Prototyping"
+        ]
       }
     }
   },
@@ -110,19 +169,40 @@
       {
         "name": "Ain Al-Amn (Security Eye)",
         "description": "A production-ready mobile application built with Flutter featuring clean architecture, responsive UI design, and secure RESTful API integration with JWT/OAuth 2.0 authentication.",
-        "tech": ["Flutter", "Dart", "Clean Architecture", "REST API", "JWT", "OAuth 2.0"],
+        "tech": [
+          "Flutter",
+          "Dart",
+          "Clean Architecture",
+          "REST API",
+          "JWT",
+          "OAuth 2.0"
+        ],
         "type": "Mobile Application"
       },
       {
         "name": "High Availability Database Cluster",
         "description": "Enterprise-grade database clustering implementation using Patroni + etcd + HAProxy with Kubernetes orchestration and Docker containerization for 99.99% uptime.",
-        "tech": ["Patroni", "PostgreSQL", "etcd", "HAProxy", "Kubernetes", "Docker"],
+        "tech": [
+          "Patroni",
+          "PostgreSQL",
+          "etcd",
+          "HAProxy",
+          "Kubernetes",
+          "Docker"
+        ],
         "type": "Infrastructure"
       },
       {
         "name": "Full-Stack Enterprise Applications",
         "description": "Robust backend services using Django, Laravel, and PHP, seamlessly integrated with modern frontends and cloud databases (PostgreSQL, Supabase, MongoDB).",
-        "tech": ["Django", "Laravel", "PHP", "PostgreSQL", "MongoDB", "Supabase"],
+        "tech": [
+          "Django",
+          "Laravel",
+          "PHP",
+          "PostgreSQL",
+          "MongoDB",
+          "Supabase"
+        ],
         "type": "Web Application"
       }
     ]

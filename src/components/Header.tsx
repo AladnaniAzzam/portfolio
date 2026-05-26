@@ -57,19 +57,17 @@ export const Header: React.FC = () => {
       {/* Overlay */}
       <div
         onClick={() => setIsMobileMenuOpen(false)}
-        className={`fixed inset-0 bg-black/40 z-40 transition-opacity duration-300 lg:hidden ${
-          isMobileMenuOpen
-            ? 'opacity-100 visible'
-            : 'opacity-0 invisible pointer-events-none'
-        }`}
+        className={`fixed inset-0 bg-black/40 z-40 transition-opacity duration-300 lg:hidden ${isMobileMenuOpen
+          ? 'opacity-100 visible'
+          : 'opacity-0 invisible pointer-events-none'
+          }`}
       />
 
       <header
-        className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
-          isScrolled
-            ? 'bg-white/95 dark:bg-slate-900/95 shadow-lg'
-            : 'bg-transparent'
-        }`}
+        className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${isScrolled
+          ? 'bg-white/95 dark:bg-slate-900/95 shadow-lg'
+          : 'bg-transparent'
+          }`}
       >
         <nav className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
@@ -82,7 +80,7 @@ export const Header: React.FC = () => {
               }}
               className="text-xl lg:text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent"
             >
-              {language === 'en' ? 'ENG/Azzam' : 'المهندس عزام'}
+              {language === 'en' ? 'Azzam Adnan' : 'عزام عدنان'}
             </a>
 
             {/* Desktop Navigation */}
@@ -144,11 +142,10 @@ export const Header: React.FC = () => {
 
           {/* Mobile Menu */}
           <div
-            className={`lg:hidden absolute top-full left-0 right-0 bg-white dark:bg-slate-900 border-t border-gray-200 dark:border-slate-700 shadow-lg transition-all duration-300 ease-out will-change-transform ${
-              isMobileMenuOpen
-                ? 'opacity-100 visible translate-y-0'
-                : 'opacity-0 invisible -translate-y-3 pointer-events-none'
-            }`}
+            className={`lg:hidden absolute top-full left-0 right-0 bg-white dark:bg-slate-900 border-t border-gray-200 dark:border-slate-700 shadow-lg transition-all duration-300 ease-out will-change-transform ${isMobileMenuOpen
+              ? 'opacity-100 visible translate-y-0'
+              : 'opacity-0 invisible -translate-y-3 pointer-events-none'
+              }`}
           >
             <div className="px-4 py-5">
               <div className="flex flex-col gap-2">
