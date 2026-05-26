@@ -100,8 +100,8 @@ export const Hero: React.FC = () => {
               {t.hero.cta1}
             </button>
             <a
-              href="/azzam-adnan-cv.pdf"
-              download
+              href="./azzam-adnan-cv.pdf"
+              download="Azzam_Adnan_CV.pdf"
               className="w-full xs:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-white dark:bg-slate-800 text-gray-700 dark:text-gray-200 font-semibold text-sm sm:text-base rounded-xl border-2 border-gray-300 dark:border-slate-600 hover:border-blue-500 dark:hover:border-cyan-500 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center gap-2"
             >
               <Download className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
