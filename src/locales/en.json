@@ -1,0 +1,156 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Azzam Adnan Abdalghani",
+    "title": "IT Engineer | Flutter & Mobile Developer | Full-Stack Developer | ERP Systems Specialist",
+    "intro": "A results-driven IT Engineer with hands-on expertise in delivering production-ready mobile applications using Flutter, architecture-driven backend systems, modern frontend interfaces, and automated DevOps infrastructure. Proven track record in administering enterprise ERP solutions and managing high-availability IT systems.",
+    "cta1": "View My Work",
+    "cta2": "Download CV",
+    "badge1": "Valid Residence (KSA)",
+    "badge2": "Immediate Availability"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Education & Certifications",
+    "description": "I'm a passionate IT Engineer with a clean-architecture approach to software development and a solid IT infrastructure background. I specialize in building scalable, production-ready applications and managing enterprise-level systems.",
+    "education": {
+      "degree": "Bachelor of Information Technology",
+      "university": "Sana'a University",
+      "year": "2025",
+      "gpa": "86% with Honors"
+    },
+    "certifications": "Professional Certifications",
+    "certs": [
+      "Mobile Application Development (Flutter) - G.T.A Institute",
+      "Graphic Design Diploma - iGraphic Institute",
+      "Advanced English & ICDL - SEEDS Institute",
+      "Online Professional Certifications (Coursera, Cisco, Alison)"
+    ]
+  },
+  "skills": {
+    "title": "Technical Skills Matrix",
+    "subtitle": "Comprehensive expertise across modern technology stack",
+    "categories": {
+      "mobile": {
+        "title": "Mobile Development",
+        "skills": ["Flutter (Dart)", "Clean Architecture", "State Management", "Responsive UI", "REST API Integration"]
+      },
+      "backend": {
+        "title": "Backend Development",
+        "skills": ["PHP", "Django", "Laravel", "Pocketbase", "Odoo ERP", "RESTful APIs", "JWT/OAuth 2.0"]
+      },
+      "frontend": {
+        "title": "Frontend Development",
+        "skills": ["HTML5", "CSS3", "JavaScript", "Responsive Design", "UI/UX Implementation"]
+      },
+      "database": {
+        "title": "Databases & High Availability",
+        "skills": ["PostgreSQL", "MongoDB", "SQL Server", "Redis", "Supabase", "MySQL", "MinIO", "ElasticSearch", "Patroni Clustering", "etcd", "HAProxy"]
+      },
+      "devops": {
+        "title": "DevOps & Infrastructure",
+        "skills": ["Docker", "Kubernetes", "Shell Scripting", "Backup Automation", "Cron Jobs", "AWS", "MongoDB Atlas", "VMware", "Network Configuration"]
+      },
+      "erp": {
+        "title": "Enterprise ERP Systems",
+        "skills": ["Al-Ameen Accounting ERP", "Invoicing", "Financial Reports", "Account Reconciliation", "Stock Control"]
+      },
+      "desktop": {
+        "title": "Desktop & Reporting",
+        "skills": ["C#", "C++", "Telerik Reporting Designer", "Telerik Server"]
+      },
+      "design": {
+        "title": "Design & UI/UX",
+        "skills": ["Adobe Photoshop", "Adobe XD", "Adobe Illustrator", "Wireframing", "Prototyping"]
+      }
+    }
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "subtitle": "Timeline of career achievements",
+    "roles": [
+      {
+        "title": "IT Engineer & Systems Support Specialist",
+        "company": "Building Materials Sector Company",
+        "period": "2022 - 2025",
+        "location": "Saudi Arabia",
+        "highlights": [
+          "Administered Al-Ameen Accounting ERP System including invoicing, financial reports, and inventory management",
+          "Deployed and maintained network infrastructure and POS systems",
+          "Provided enterprise-level technical support and end-user training",
+          "Optimized system performance and ensured 99.9% uptime"
+        ]
+      },
+      {
+        "title": "Independent Software Developer",
+        "company": "Freelance - Mobile, Backend & Systems Projects",
+        "period": "2021 - 2025",
+        "location": "Remote",
+        "highlights": [
+          "Developed production-ready mobile applications using Flutter",
+          "Built robust backend APIs with Django, Laravel, and PHP",
+          "Implemented containerized deployments with Docker and Kubernetes",
+          "Designed high-availability database architectures",
+          "Delivered custom software solutions for diverse client requirements"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Showcasing production-ready applications and systems",
+    "items": [
+      {
+        "name": "Ain Al-Amn (Security Eye)",
+        "description": "A production-ready mobile application built with Flutter featuring clean architecture, responsive UI design, and secure RESTful API integration with JWT/OAuth 2.0 authentication.",
+        "tech": ["Flutter", "Dart", "Clean Architecture", "REST API", "JWT", "OAuth 2.0"],
+        "type": "Mobile Application"
+      },
+      {
+        "name": "High Availability Database Cluster",
+        "description": "Enterprise-grade database clustering implementation using Patroni + etcd + HAProxy with Kubernetes orchestration and Docker containerization for 99.99% uptime.",
+        "tech": ["Patroni", "PostgreSQL", "etcd", "HAProxy", "Kubernetes", "Docker"],
+        "type": "Infrastructure"
+      },
+      {
+        "name": "Full-Stack Enterprise Applications",
+        "description": "Robust backend services using Django, Laravel, and PHP, seamlessly integrated with modern frontends and cloud databases (PostgreSQL, Supabase, MongoDB).",
+        "tech": ["Django", "Laravel", "PHP", "PostgreSQL", "MongoDB", "Supabase"],
+        "type": "Web Application"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's discuss your next project",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Your Message",
+      "send": "Send Message"
+    },
+    "info": {
+      "email": "azzamaladnani@gmail.com",
+      "phone": "+966 557662446",
+      "location": "Saudi Arabia"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Azzam Adnan. All rights reserved.",
+    "languages": "Supported Languages: Arabic / English"
+  },
+  "common": {
+    "theme": "Theme",
+    "language": "Language",
+    "light": "Light",
+    "dark": "Dark"
+  }
+}
