@@ -42,7 +42,7 @@ export const Hero: React.FC = () => {
                     {/* Image Wrapper */}
                     <div className="w-full h-full rounded-full overflow-hidden ring-4 ring-slate-200 dark:ring-slate-700 group-hover:ring-blue-400 dark:group-hover:ring-cyan-400 transition-all duration-500">
                       <img
-                        src="/assets/images/azzam_profile.jpg"
+                        src="./assets/images/azzam_profile.jpg"
                         alt="Azzam Adnan Abdalghani - IT Engineer & Full-Stack Developer"
                         className="w-full h-full object-cover aspect-square transform group-hover:scale-110 transition-transform duration-700"
                         loading="eager"

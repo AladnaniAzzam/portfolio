@@ -26,7 +26,7 @@ export const LoadingScreen: React.FC = () => {
             <div className="relative w-full h-full p-[3px] rounded-full bg-gradient-to-br from-blue-500 via-cyan-400 to-blue-700 shadow-2xl">
               {/* الصورة */}
               <img
-                src="/assets/images/azzam_profile.jpg"
+                src="./assets/images/azzam_profile.jpg"
                 alt="Azzam"
                 className="w-full h-full rounded-full object-cover border-4 border-[#0B1120]"
               />

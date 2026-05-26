@@ -23,13 +23,13 @@ const rawProjects = [
   {
     folder: 'ain_al_amn_app',
     images: [
-      "/assets/images/projects/ain_al_amn_app/0.jpg",
-      "/assets/images/projects/ain_al_amn_app/1.jpg",
-      "/assets/images/projects/ain_al_amn_app/2.jpg",
-      "/assets/images/projects/ain_al_amn_app/3.jpg",
-      "/assets/images/projects/ain_al_amn_app/4.jpg",
-      "/assets/images/projects/ain_al_amn_app/5.jpg",
-      "/assets/images/projects/ain_al_amn_app/6.jpg"
+      "./assets/images/projects/ain_al_amn_app/0.jpg",
+      "./assets/images/projects/ain_al_amn_app/1.jpg",
+      "./assets/images/projects/ain_al_amn_app/2.jpg",
+      "./assets/images/projects/ain_al_amn_app/3.jpg",
+      "./assets/images/projects/ain_al_amn_app/4.jpg",
+      "./assets/images/projects/ain_al_amn_app/5.jpg",
+      "./assets/images/projects/ain_al_amn_app/6.jpg"
     ],
     category: 'Mobile Development',
     titleEn: "Ain Al-Amn (Security Eye) - Mobile App",
@@ -42,7 +42,7 @@ const rawProjects = [
   {
     folder: 'ain_al_amn_dashboard',
     images: [
-      "/assets/images/projects/ain_al_amn_dashboard/1.jpg"
+      "./assets/images/projects/ain_al_amn_dashboard/1.jpg"
     ],
     category: 'Full-Stack Development',
     titleEn: "Ain Al-Amn - Admin & Sub-System Dashboards",
@@ -55,13 +55,13 @@ const rawProjects = [
   {
     folder: 'mirab_ecommerce',
     images: [
-      "/assets/images/projects/mirab_ecommerce/1.jpg",
-      "/assets/images/projects/mirab_ecommerce/2.jpg",
-      "/assets/images/projects/mirab_ecommerce/3.jpg",
-      "/assets/images/projects/mirab_ecommerce/4.jpg",
-      "/assets/images/projects/mirab_ecommerce/5.jpg",
-      "/assets/images/projects/mirab_ecommerce/6.jpg",
-      "/assets/images/projects/mirab_ecommerce/7.jpg"
+      "./assets/images/projects/mirab_ecommerce/1.jpg",
+      "./assets/images/projects/mirab_ecommerce/2.jpg",
+      "./assets/images/projects/mirab_ecommerce/3.jpg",
+      "./assets/images/projects/mirab_ecommerce/4.jpg",
+      "./assets/images/projects/mirab_ecommerce/5.jpg",
+      "./assets/images/projects/mirab_ecommerce/6.jpg",
+      "./assets/images/projects/mirab_ecommerce/7.jpg"
     ],
     category: 'Full-Stack E-Commerce & ERP',
     titleEn: "Mirab - Building Materials E-Commerce & Inventory System",
@@ -74,9 +74,9 @@ const rawProjects = [
   {
     folder: 'bizflow_platform',
     images: [
-      "/assets/images/projects/bizflow_platform/1.jpg",
-      "/assets/images/projects/bizflow_platform/2.jpg",
-      "/assets/images/projects/bizflow_platform/3.jpg"
+      "./assets/images/projects/bizflow_platform/1.jpg",
+      "./assets/images/projects/bizflow_platform/2.jpg",
+      "./assets/images/projects/bizflow_platform/3.jpg"
     ],
     category: 'Full-Stack Development / SaaS',
     titleEn: "BizFlow - Multi-Tenant Enterprise SaaS Cloud Platform",
@@ -125,13 +125,13 @@ const rawProjects = [
 //   {
 //     folder: 'ain_al_amn_app',
 //     images: [
-//       "/assets/images/projects/ain_al_amn_app/0.jpg",
-//       "/assets/images/projects/ain_al_amn_app/1.jpg",
-//       "/assets/images/projects/ain_al_amn_app/2.jpg",
-//       "/assets/images/projects/ain_al_amn_app/3.jpg",
-//       "/assets/images/projects/ain_al_amn_app/4.jpg",
-//       "/assets/images/projects/ain_al_amn_app/5.jpg",
-//       "/assets/images/projects/ain_al_amn_app/6.jpg"
+//       "./assets/images/projects/ain_al_amn_app/0.jpg",
+//       "./assets/images/projects/ain_al_amn_app/1.jpg",
+//       "./assets/images/projects/ain_al_amn_app/2.jpg",
+//       "./assets/images/projects/ain_al_amn_app/3.jpg",
+//       "./assets/images/projects/ain_al_amn_app/4.jpg",
+//       "./assets/images/projects/ain_al_amn_app/5.jpg",
+//       "./assets/images/projects/ain_al_amn_app/6.jpg"
 //     ],
 //     category: 'Mobile Development',
 //     titleEn: "Ain Al-Amn (Security Eye) - Mobile App",
@@ -143,7 +143,7 @@ const rawProjects = [
 //   {
 //     folder: 'ain_al_amn_dashboard',
 //     images: [
-//       "/assets/images/projects/ain_al_amn_dashboard/1.jpg"
+//       "./assets/images/projects/ain_al_amn_dashboard/1.jpg"
 //     ],
 //     category: 'Full-Stack Development',
 //     titleEn: "Ain Al-Amn - Admin & Sub-System Dashboards",
@@ -155,13 +155,13 @@ const rawProjects = [
 //   {
 //     folder: 'mirab_ecommerce',
 //     images: [
-//       "/assets/images/projects/mirab_ecommerce/1.jpg",
-//       "/assets/images/projects/mirab_ecommerce/2.jpg",
-//       "/assets/images/projects/mirab_ecommerce/3.jpg",
-//       "/assets/images/projects/mirab_ecommerce/4.jpg",
-//       "/assets/images/projects/mirab_ecommerce/5.jpg",
-//       "/assets/images/projects/mirab_ecommerce/6.jpg",
-//       "/assets/images/projects/mirab_ecommerce/7.jpg"
+//       "./assets/images/projects/mirab_ecommerce/1.jpg",
+//       "./assets/images/projects/mirab_ecommerce/2.jpg",
+//       "./assets/images/projects/mirab_ecommerce/3.jpg",
+//       "./assets/images/projects/mirab_ecommerce/4.jpg",
+//       "./assets/images/projects/mirab_ecommerce/5.jpg",
+//       "./assets/images/projects/mirab_ecommerce/6.jpg",
+//       "./assets/images/projects/mirab_ecommerce/7.jpg"
 //     ],
 //     category: 'Full-Stack E-Commerce & ERP',
 //     titleEn: "Mirab - Building Materials E-Commerce & Inventory System",
@@ -173,9 +173,9 @@ const rawProjects = [
 //   {
 //     folder: 'bizflow_platform',
 //     images: [
-//       "/assets/images/projects/bizflow_platform/1.jpg",
-//       "/assets/images/projects/bizflow_platform/2.jpg",
-//       "/assets/images/projects/bizflow_platform/3.jpg"
+//       "./assets/images/projects/bizflow_platform/1.jpg",
+//       "./assets/images/projects/bizflow_platform/2.jpg",
+//       "./assets/images/projects/bizflow_platform/3.jpg"
 //     ],
 //     category: 'Full-Stack Development / SaaS',
 //     titleEn: "BizFlow - Multi-Tenant Enterprise SaaS Cloud Platform",
